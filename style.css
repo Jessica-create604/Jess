@@ -1,0 +1,150 @@
+*{
+    box-sizing:border-box ;
+    margin: 0px;
+    padding: 0px;
+    background-color:#1E201E;
+}
+li, a {
+font-family: "Cinzel", serif;
+font-weight: 500;
+font-size: 1rem;
+color:#268605;
+text-decoration: none;
+}
+.botton{
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:#697565;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color:none;
+    border: solid 2px #42b11e;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   
+}
+.botton:hover{
+    background-color:#c4c7b5 ;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.Logo{
+    cursor: pointer;
+   
+
+}
+
+.nav-links{
+    list-style: none;
+
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color:#c4c7b5;
+}
+
+
+h3{
+color: #697565;
+}
+.heading{
+    color:#697565 ;
+    font-family: "Cinzel", serif;
+    text-align: center;
+    margin-right: 99px;
+    margin-left: 99px;
+    margin-bottom: 40px;
+    text-shadow: 5px -10px 6px rgba(9,167,32,0.74);
+    
+}
+.heading-1{
+    color:#697565;
+    font-family: "Cinzel", serif;
+    font-size: 140px;
+    text-align: center;
+   padding-top: 20px;
+   margin-right: 99px;
+   margin-left: 99px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 3%;
+    border-width: 5px;
+    width: 3%;
+    border-color:#3ec708;
+    margin: 40px auto;
+    
+}
+p{
+    width: 80%;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 0px;
+    color:#697565 ;
+    font-family: "Cormorant", serif;
+}
+.designer{
+    text-align: center;
+}
+.botton-2{
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:#c4c7b5;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color:none;
+    
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   
+}
+.designer:hover{
+    color:#c4c7b5;
+    transition: all 0.3s ease 0s;
+}
+.designer{
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:#3ec708;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color:none;
+    border: solid #76816d;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 50px;
+   
+}
+span{
+    color: #3ec708;
+}
+body{
+    background-image: url("paper.gif"); 
+}
+/*\
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 600px;
+    margin-top: 60px;
+    margin-left: 600px;
+   
+}
